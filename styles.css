@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: blueviolet;
 }
@@ -8,6 +17,9 @@ a {
 
 h3 {
   color: rgb(249, 193, 193);
+  margin: 0px auto 4px auto;
+  display: block;
+  width: 900px;
 }
 
 p {
@@ -25,4 +37,42 @@ ol {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: orangered;
   background-color: rgb(19, 19, 98);
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.web-links {
+  display: block;
+}
+
+.web-links li {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.title-header {
+  color: goldenrod;
+  background-color: darkmagenta;
+  margin: -8px -8px -0px -8px;
+  padding: 10px;
+}
+
+.image-center {
+  display: block;
+  width: auto;
+  max-height: 800px;
+
+  margin: 0 auto;
+  border: 10px solid black;
+}
+
+#enc {
+  border: 10px dotted cornsilk;
+  margin: 10px auto;
+  padding: 20px 10px;
+  width: 1000px;
 }
